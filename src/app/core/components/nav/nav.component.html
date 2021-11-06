@@ -1,0 +1,13 @@
+
+
+
+<div class="nav">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c8/Rick_and_Morty_logo.png">
+<ul>
+    <li *ngFor="let item of nav" class="nav-menu">
+        <a [routerLink]="[item.url]">
+            {{item.label}}
+        </a>
+    </li>
+</ul>
+</div>

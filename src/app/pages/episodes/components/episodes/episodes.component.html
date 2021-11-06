@@ -1,0 +1,9 @@
+<div *ngIf="episodesList">
+    <h1>EPISODES</h1>
+    <div *ngFor="let episodes of episodesList" class="episodes-styles" routerLink="{{episodes.id}}">
+        <h2>{{ episodes.name}} </h2>
+        <h3> {{ episodes.air_date }} </h3>
+        <h3> {{ episodes.episode}}</h3>
+    </div>
+ </div>
+

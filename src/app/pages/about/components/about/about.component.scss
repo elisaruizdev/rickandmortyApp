@@ -1,0 +1,19 @@
+.making {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    justify-content: center;
+}
+h1 {
+    display: block;
+    align-items: center;
+    color: #bedd4a;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+
+iframe {
+    width: 100%;
+}
